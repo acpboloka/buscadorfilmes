@@ -1,0 +1,71 @@
+body {
+    background: url('https://i.imgur.com/6ZqE0Ew.jpg') repeat; /* Fundo em estilo Matrix */
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(30, 30, 30, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00a8ff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007bbd;
+}
+
+.movies-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    background-color: rgba(50, 50, 50, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.movie img {
+    width: 100%; /* Ajusta a largura da imagem para 100% do container */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 250px; /* Define uma altura máxima */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.movie p {
+    margin: 5px 0;
+}
